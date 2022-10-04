@@ -35,7 +35,14 @@
 }
 body {
   background-color: #8DA379;
+  margin:0px;
+  height: 100%;
   /* background-image: linear-gradient(to right, #8DA379, #C3DADB); */
+}
+html {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
 }
 a {
   color: #efe7ce;
@@ -85,6 +92,8 @@ a:hover {
   border-radius: 5px;
   margin-left: 5%;
   margin-top: 2%;
+  margin-right: 2%;
+  padding-right: 2%;
 
 }
 .section-header {
@@ -154,7 +163,8 @@ a:hover {
   height: 40vh;
   font-family:'gill_sansregular', Calibri;
   padding-top: 15px;
-  padding-left: 3em;
+  padding-left: 1.5em;
+  padding-right: 3px;
   color: #efe7ce;
   font-size: larger;
   border-right: 2px solid #E3DBC4;
